@@ -19,14 +19,15 @@ public class SimplePath extends Path {
 			node = new SimpleNode(Double.parseDouble(position[0]), Double.parseDouble(position[1]));
 			if (node != null) {
 				this.nodes.add(node);
-				System.out.println(node);
+				//System.out.println(node);
 			}
 		}
 		fr.close();
 		br.close();
 	}
 
+	
 	public static void main(String[] args) throws IOException {
-		SimplePath sp = new SimplePath("坐标点信息1(不含时间).csv");
+		//SimplePath sp = new SimplePath("坐标点信息1(不含时间).csv");
 	}
 }

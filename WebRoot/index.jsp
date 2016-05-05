@@ -22,8 +22,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     This is my JSP page. <br>
-   <<form action="ShowPathServlet" method="post">
-   
+   <form action="./servlet/ShowPathServlet" method="get">
+   <input type="file" name="fileName">
+   	<input type="submit" value="显示路径">
    </form>
   </body>
 </html>
